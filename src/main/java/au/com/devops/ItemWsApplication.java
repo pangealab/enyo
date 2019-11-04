@@ -24,6 +24,7 @@ public class ItemWsApplication extends SpringBootServletInitializer {
 
 	@Component
 	public class JerseyConfig extends ResourceConfig {
+
 		public JerseyConfig() {
 			registerEndpoints();
 		}
